@@ -1,0 +1,30 @@
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\Hard Chatik WPF.exe
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\Hard Chatik WPF.deps.json
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\Hard Chatik WPF.runtimeconfig.json
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\Hard Chatik WPF.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\Hard Chatik WPF.pdb
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\System.Management.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.csproj.AssemblyReference.cache
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF_MarkupCompile.cache
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF_MarkupCompile.lref
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\MainWindow.baml
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.g.resources
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.AssemblyInfoInputs.cache
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.AssemblyInfo.cs
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.csproj.CoreCompileInputs.cache
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.csproj.CopyComplete
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.dll
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\refint\Hard Chatik WPF.dll
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.pdb
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\Hard Chatik WPF.genruntimeconfig.cache
+D:\repos\chat\Hard Chatik WPF\obj\Debug\net8.0-windows\ref\Hard Chatik WPF.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\repos\chat\Hard Chatik WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

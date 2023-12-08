@@ -1,0 +1,73 @@
+﻿<Window x:Class="Hard_Chatik_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hard_Chatik_WPF"
+        mc:Ignorable="d"
+        Title="Hard Chatik" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <TextBlock Text="Информация о вашем ПК:" FontSize="15" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1" >
+            <TextBlock Text="Материнская плата:" Width="200"/>
+            <TextBlock Text="Процессор:"/>
+            <TextBlock Text="Видеокарта:"/>
+            <TextBlock Text="Оперативная память:"/>
+            <TextBlock Text="Диск:"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock Text="" x:Name="baseText"/>
+            <TextBlock Text="" x:Name="procText"/>
+            <TextBlock Text="" x:Name="videoText"/>
+            <TextBlock Text="" x:Name="ramText"/>
+            <TextBlock Text="" x:Name="memoryText"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <TextBlock x:Name="loginText" Text="Логин:"/>
+            <TextBox x:Name="loginBox" Text=""/>
+            <TextBlock x:Name="passwordText" Text="Пароль:"/>
+            <TextBox x:Name="passwordBox" Text=""/>
+            <Button x:Name="regButton" Click="ButtonReg" Height="20" Width="80" HorizontalAlignment="Left" Content="Регистрация"/>
+            <Button x:Name="authButton" Click="ButtonAuth" Height="20" Width="80" HorizontalAlignment="Left" Content="Авторизация"/>
+            <Ellipse x:Name="circle" Fill="Red" Width="10" Height="10" HorizontalAlignment="Left"/>
+            <TextBlock x:Name="statusBox" Text="Не авторизован"/>
+        </StackPanel>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <ListBox Name="chatListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Grid.Column="0" Text="{Binding UserID}" />
+                                <TextBlock Grid.Column="1" Text="{Binding Text}" />
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+            <Button x:Name="buttonSendMessage" Click="ButtonSendMessage" Content="Отправить" FontSize="10" FontWeight="Black" HorizontalContentAlignment="Center" VerticalAlignment="Center"
+                    Grid.Row="1" IsEnabled="False" Width="60" Height="30" HorizontalAlignment="Right"/>
+            <TextBox IsEnabled="False" x:Name="chatText" Text="" TextAlignment="Left" Grid.Row="1" Width="340" HorizontalAlignment="Left" VerticalAlignment="Center"
+                     FontSize="15" VerticalContentAlignment="Center" Height="30" MaxLength="50"/>
+        </Grid>
+    </Grid>
+</Window>
